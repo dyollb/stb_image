@@ -1,5 +1,5 @@
 # stb_image
-Mirror of stb_image to build stb_image as a static libary
+Partial mirror of [stb](https://github.com/nothings/stb) to build stb as a static libary
 
 Version:
 - stb_image: v2.28

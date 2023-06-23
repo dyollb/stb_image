@@ -1,0 +1,23 @@
+// dummy cpp file to compile the code
+
+
+#cmakedefine STB_IMAGE_LOAD
+#cmakedefine STB_IMAGE_WRITE
+#cmakedefine STB_TRUETYPE
+
+#ifdef STB_IMAGE_LOAD
+	#define STB_IMAGE_IMPLEMENTATION
+	#include "stb_image.h"
+#endif
+
+#ifdef STB_IMAGE_WRITE
+	#define STB_IMAGE_WRITE_IMPLEMENTATION
+	#include "stb_image_write.h"
+#endif
+
+#ifdef STB_TRUETYPE
+	#define STB_TRUETYPE_IMPLEMENTATION
+	#include "stb_truetype.h"
+#endif
+
+ 
